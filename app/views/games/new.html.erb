@@ -1,0 +1,17 @@
+
+<div class="center">
+  <h1>New Game</h1>
+  <div class='in-line margin'>
+    <p><% @letters.each do |letter| %>
+    <span style='background-color: rgb(129, 151, 192); border: 2px solid grey; padding: 15px; box-shadow: 2px 2px grey; margin-right: 5px;'><%=letter%></span>
+    <%end%></p>
+  </div>
+
+
+  <form class='format-form' action='/score' method='post'>
+    <label>What is the longest word you can find?</label>
+    <input type='text' name='word'>
+    <input type="submit" value='Play'>
+    <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+  </form>
+</div>
