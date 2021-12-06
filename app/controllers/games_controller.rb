@@ -20,12 +20,13 @@ class GamesController < ApplicationController
 
   def new
     @letters = generate_grid(9)
+    @string_letters = @letters.join('')
   end
 
   def score
     @word = params[:word]
-    @letters = new
-    @string_letters = @letters.join(' ')
+    @string_letters = params[:letters]
+    @letters = @string_letters.split('')
     @results = run_game(@word, @letters, @string_letters)
   end
 
