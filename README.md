@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+LONGEST WORD
+Simple word game of making the longest word out of the given 9 letters
 
-Things you may want to cover:
+Versions: 
+Ruby 2.7.3
+rails 6.0.4 
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Run on your local server/new with ruby on ralis to start a new game!
+Rules
+Can only use 1 letter tile once
+Use as many letter tiles to make the longest word you can out of the 9 tiles
+Has to be a valid English word
