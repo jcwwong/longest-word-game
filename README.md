@@ -1,11 +1,11 @@
 # README
 
-LONGEST WORD
+LONGEST WORD:
 Simple word game of making the longest word out of the given 9 letters
 
 Versions: 
 Ruby 2.7.3
-rails 6.0.4 
+Rails 6.0.4 
 
 Run on your local server/new with ruby on ralis to start a new game!
 Rules
